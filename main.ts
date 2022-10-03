@@ -82,12 +82,6 @@ function _8 () {
     pins.digitalWritePin(DigitalPin.P14, 0)
     pins.digitalWritePin(DigitalPin.P15, 0)
 }
-input.onButtonPressed(Button.AB, function () {
-    _8()
-})
-input.onButtonPressed(Button.B, function () {
-	
-})
 function _0 () {
     pins.digitalWritePin(DigitalPin.P1, 0)
     pins.digitalWritePin(DigitalPin.P2, 0)
